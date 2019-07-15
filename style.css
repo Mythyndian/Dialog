@@ -1,0 +1,122 @@
+body, html {
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+.navbar-link {
+    color: black;
+}
+
+.navbar {
+    margin:0 !important;
+	padding: 0px !important;
+    background: transparent;
+    
+}
+li a:hover {
+    background-color:rgb(140, 146, 156);
+    opacity: 0.5;
+}
+
+li {
+    padding: 0;
+}
+
+.img1 {
+    background: url("../images/img1.jpg");
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 1500px;      
+}
+.ptext{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:#000;
+    font-size:27px;
+    letter-spacing:8px;
+    text-transform:uppercase;
+  }
+  
+  .ptext .border{
+    background-color:#111;
+    color:#fff;
+    padding:20px;
+  }
+  
+  .ptext .border.trans{
+    background-color:transparent;
+  }
+
+
+
+.gallery {
+    margin: 10px 50px;
+    text-align: center;
+    padding: 56px;
+}
+
+.gallery img {
+    width: 230px;
+    padding: 10px;
+    filter: grayscale(100%);
+    transition: 1s;
+}
+
+.gallery img:hover {
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+
+.about {
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+}
+.about h3 {
+    text-align: center;
+    color: grey;
+
+}
+
+.img2 {
+    background: url("../images/img2.jpg");
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 640px;      
+}
+
+.container h3 {
+    text-align: center;
+}
+
+.footer {
+    top:330%;
+    width:100%;
+    text-align:center;
+    color:#666;
+    font-size:20px;
+    letter-spacing:8px;
+    text-transform:uppercase;
+}
+
+.container {
+    color: #666;
+}
+
+#about {
+    padding: 56px;
+}
+
+.navbar-brand:hover {
+    background-color:rgb(140, 146, 156);
+    opacity: 0.5
+}
